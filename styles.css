@@ -13,14 +13,13 @@ body {
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
-    flex-direction: column; /* Alinha os itens verticalmente */
-    padding-top: 50px; /* Ajuste conforme necessário */
+    flex-direction: column;
 }
 
-.logo-image {
-    max-width: 150px; /* Define o tamanho máximo da imagem */
+.logo-image, .footer-image {
+    max-width: 200px; 
     height: auto;
-    margin-bottom: 20px; /* Espaço entre a imagem e o título */
+    margin-bottom: 3px;
 }
 
 .section-one h1 {
