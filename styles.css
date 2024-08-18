@@ -14,19 +14,29 @@ body {
     align-items: center;
     color: #FFFFFF;
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .logo-image, .footer-image {
-    max-width: 200px; 
+    max-width: 250px;
     height: auto;
-    margin-bottom: 3px;
+    margin-bottom: 20px;
 }
 
 .section-one h1 {
     font-family: 'Monoton', cursive;
-    font-size: 60px;
+    font-size: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     margin: 0;
+    padding: 0 20px;
+    white-space: nowrap; /* Garante que o texto não quebre de linha */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adiciona elipses se o texto for muito longo (opcional) */
+}
+
+.footer-image {
+    margin-top: 20px;
 }
 
 .section-two {
