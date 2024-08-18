@@ -1,23 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif; 
+    background-color: #000000; 
+    color: #FFD700; 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-}
-
-.container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0;
     text-align: center;
 }
 
+.container {
+    max-width: 600px; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
 h1 {
-    color: #ff6347;
+    color: #FFD700; 
+    margin-bottom: 20px;
 }
 
 p {
@@ -27,13 +29,14 @@ p {
 
 button {
     padding: 10px 20px;
-    background-color: #ff6347;
-    color: white;
+    background-color: #FFD700;
+    color: #000000; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 button:hover {
-    background-color: #e5533d;
+    background-color: #FFC700;
 }
