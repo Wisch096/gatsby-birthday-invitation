@@ -46,6 +46,23 @@ body {
     color: #E5E5E5;
 }
 
+.footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #B8860B;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer a:hover {
+    background-color: #A67C00;
+}
+
+
 .footer button {
     padding: 10px 20px;
     background-color: #B8860B;
