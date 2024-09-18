@@ -25,12 +25,16 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 800px;
     text-align: center;
 }
 
+.first-section {
+    height: 500px;
+}
+
 .images-container img {
-    width: 50%; 
+    width: 70%; 
     height: auto;
     margin: 20px 0;
 }
@@ -40,38 +44,53 @@ section {
 }
 
 .message-text p {
-    font-size: 20px;
-    margin: 5px 0;
+    font-size: 24px;
+    margin: 10px 0;
 }
 
 .word-1 {
     font-family: 'Now', sans-serif;
+    font-stretch: normal;
+    letter-spacing: 8px; 
 }
 
 .word-2 {
     font-family: 'Monoton', cursive;
+    letter-spacing: 8px;
 }
 
 .word-3,
 .word-4,
 .word-5 {
     font-family: 'Lucidity Condensed', sans-serif;
+    letter-spacing: 8px;
 }
 
 .subtitle {
     margin: 20px 0;
-    font-size: 24px;
+    font-size: 16px;
+    font-family: 'Now', sans-serif;
+    color: #b28b53;
+    letter-spacing: 1px;
 }
 
 .whatsapp-btn {
     padding: 10px 20px;
-    background-color: darkgoldenrod;
+    background-color: #cda349;
     border: none;
-    border-radius: 5px;
+    border-radius: 12px;
     color: #fff;
+    height: 85px;
+    width: 250px;
     font-size: 18px;
     cursor: pointer;
     text-decoration: none;
+    font-family: 'Now', sans-serif;
+}
+
+.confirm {
+    margin-top: 8px;
+    display: block;
 }
 
 .logo-image {
